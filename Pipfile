@@ -13,3 +13,5 @@ name = "pypi"
 
 django = "==2.0.2"
 pytz = "==2018.3"
+opentok = "*"
+django-redis = "*"
