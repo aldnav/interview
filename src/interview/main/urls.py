@@ -1,7 +1,10 @@
 from django.urls import path
 
-from .views import HomeView
+from . import views
 
+app_name = 'main'
 urlpatterns = [
-    path('', HomeView.as_view(), name='index'),
+    path('', views.HomeView.as_view(), name='index'),
+    path('get-session/',
+         views.GetSessionInfoView.as_view(), name='session-info'),
 ]

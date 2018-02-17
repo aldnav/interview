@@ -1,4 +1,15 @@
 {% extends 'main/base.html' %}
+{% load static %}
+{% block page_header %}
+<link rel="stylesheet" href="{% static "main/css/styles.css" %}">
+<script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
+
+{% endblock %}
+
 {% block page_body %}
 <h1>Home</h1>
+{% endblock %}
+
+{% block page_footer %}
+<script src="{% static "main/js/site.js" %}"></script>
 {% endblock %}
