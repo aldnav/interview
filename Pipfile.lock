@@ -107,7 +107,7 @@
                 "sha256:4fd2584719895ff041cf48766014ef6b5a170f5caf0e2dc735837b182e78d081",
                 "sha256:c5dd29e9f1b733e74311bf95d0e544e91bd1d14bc0366e8f443562d8d9920b7d"
             ],
-            "version": "==3.4.11"
+            "version": "==3.6.6"
         },
         "python-jose": {
             "hashes": [
